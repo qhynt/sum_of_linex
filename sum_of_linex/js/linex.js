@@ -13,8 +13,11 @@ function StringToDigit(str)
 {
 	//var str="line1234";
 	var nIdx;
+	var varTest;
 
     nIdx = str.search(/[0-9]/);
     
     return Number(str.substr(nIdx));
+    
+    
 }
