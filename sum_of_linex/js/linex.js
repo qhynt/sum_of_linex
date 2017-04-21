@@ -21,3 +21,10 @@ function StringToDigit(str)
     
     
 }
+
+/* 用函数来获取表格*/
+function GetTableLen(window1, tagName)
+{
+	
+	return window1.document.getElementsByTagName(tagName);
+}
